@@ -31,8 +31,8 @@ The result should be an object like this
 {
     "status": "ok|error",
     "message": "Message from the 9Hits server",
-    "input": your input,
-    "output": Encrypted proxy
+    "input": "your input",
+    "output": "Encrypted proxy"
 }
 */
 echo $result->output;
